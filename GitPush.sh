@@ -2,7 +2,7 @@ stamp=`date'%y/%m/%d__%H:%M'`;
 
 git add .
 
-git commit -m "Linux Commit ${stamp}"
+git commit -m "Linux Commit $stamp"
 
 echo 'Enter the name of the branch:'
 read branch
