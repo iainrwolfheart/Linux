@@ -2,7 +2,7 @@ stamp='date +%y/%m/%d__%H:%M';
 
 git add .
 
-echo 'Linux Commit ${stamp}'
+echo 'Linux Commit $stamp'
 read commitMessage
 
 git commit -m "$commitMessage"
