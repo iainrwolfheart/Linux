@@ -3,7 +3,7 @@ stamp=`date +%y/%m/%d__%H:%M`;
 git add .
 
 echo 'Enter commit message'
-read=msg
+read msg
 
 git commit -m "$msg $stamp"
 
