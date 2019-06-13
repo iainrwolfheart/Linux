@@ -1,4 +1,4 @@
-stamp=`date'%y/%m/%d__%H:%M'`;
+stamp=`date +%y/%m/%d__%H:%M`;
 
 git add .
 
